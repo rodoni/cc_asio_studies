@@ -15,4 +15,6 @@ SET(USED_LIBS ${Boost_SYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY} ${Boost_REGEX_LIBR
 add_subdirectory(tcp_client)
 add_subdirectory(tcp_server)
 add_subdirectory(async_tcp_server)
+add_subdirectory(udp_client)
+add_subdirectory(udp_server)
 
