@@ -1,0 +1,15 @@
+//proto file with Address Book service define
+syntax = "proto3";
+
+package tutorial;
+
+import "my_proto/address.proto";
+
+message NameQuery {
+    string name = 1;
+}
+
+service AddressBook {
+    rpc QueryAddress (NameQuery) returns (Address) {}
+}
+
