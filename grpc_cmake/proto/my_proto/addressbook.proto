@@ -1,4 +1,3 @@
-//proto file with Address Book service define
 syntax = "proto3";
 
 package tutorial;
@@ -10,6 +9,6 @@ message NameQuery {
 }
 
 service AddressBook {
-    rpc QueryAddress (NameQuery) returns (Address) {}
+    rpc GetAddress(NameQuery) returns (Address) {}
 }
 
