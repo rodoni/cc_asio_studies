@@ -1,4 +1,4 @@
-find_package(protobuf REQUIRED)
+find_package(protobuf REQUIRED CONFIG)
 find_package(gRPC CONFIG REQUIRED)
 
 find_package(Threads)
